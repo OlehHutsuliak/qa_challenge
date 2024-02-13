@@ -1,0 +1,23 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "description": "QA Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "Oleh Hutsuliak",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^1.0.1",
+    "prettier": "3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
