@@ -5,7 +5,7 @@
 To install all necessary packages, run:
 
 ```bash
-$ npm install
+npm install
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install
 To run all tests, use the following command:
 
 ```bash
-$ npm test
+npm test
 ```
 
 ### Run All Tests in Headed Mode
@@ -23,7 +23,7 @@ $ npm test
 To run all tests in headed mode (i.e. with the browser window visible), use:
 
 ```bash
-$ npm run test:headed
+npm run test:headed
 ```
 
 ### Run Single Test
@@ -31,7 +31,7 @@ $ npm run test:headed
 To run a single test, use the following command, replacing `<testName>` with the name of the specific test:
 
 ```bash
-$ npm run test:specific "<testName>"
+npm run test:specific "<testName>"
 ```
 
 ## Reporting
@@ -41,7 +41,7 @@ The information about the test run is printed in the terminal using the default 
 To open the last generated HTML report, run the following command:
 
 ```bash
-$ npx playwright show-report
+npx playwright show-report
 ```
 
 To stop serving the report, please press Ctrl+C.
