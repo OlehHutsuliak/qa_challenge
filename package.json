@@ -4,7 +4,13 @@
   "description": "QA Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:specific": "npx playwright test -g",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --write"
   },
   "keywords": [],
   "author": "Oleh Hutsuliak",
